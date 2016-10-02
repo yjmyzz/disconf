@@ -11,6 +11,7 @@
     <modules>
         <module>disconf-client</module>
         <module>disconf-core</module>
+        <module>disconf-web</module>
     </modules>
 
     <inceptionYear>2015</inceptionYear>
@@ -151,7 +152,7 @@
             <dependency>
                 <groupId>org.apache.zookeeper</groupId>
                 <artifactId>zookeeper</artifactId>
-                <version>3.3.6</version>
+                <version>3.4.8</version>
                 <exclusions>
                     <exclusion>
                         <groupId>com.sun.jmx</groupId>
